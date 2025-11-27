@@ -1,0 +1,1098 @@
+---
+// Langgananku Landing Page
+// Modern, Green-themed, Animated, Bilingual, Dark Mode Support
+---
+
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<!-- Primary Meta Tags -->
+		<title>Langgananku - Aplikasi Kelola Langganan Digital #1 Indonesia | Hemat & Mudah</title>
+		<meta name="title" content="Langgananku - Aplikasi Kelola Langganan Digital #1 Indonesia | Hemat & Mudah" />
+		<meta name="description" content="Langgananku adalah aplikasi manajemen langganan digital terbaik di Indonesia. Kelola Netflix, Spotify, YouTube Premium, dan 100+ layanan lainnya. Hemat hingga Rp 500.000/bulan dengan notifikasi otomatis & analisis pengeluaran cerdas. Gratis selamanya!" />
+		<meta name="keywords" content="langgananku, kelola langganan, manajemen langganan, subscription manager, aplikasi langganan, hemat langganan, Netflix, Spotify, YouTube Premium, Disney+, reminder tagihan, notifikasi telegram, analisis pengeluaran, aplikasi keuangan, subscription tracker Indonesia" />
+		<meta name="author" content="Langgananku" />
+		<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+		<meta name="googlebot" content="index, follow" />
+		<meta name="bingbot" content="index, follow" />
+		
+		<!-- Favicon & Icons -->
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<link rel="icon" type="image/png" sizes="32x32" href="/logo.png" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/logo.png" />
+		<meta name="theme-color" content="#22c55e" />
+		<meta name="msapplication-TileColor" content="#22c55e" />
+		
+		<!-- Canonical -->
+		<link rel="canonical" href="https://langgananku.web.id" />
+		<meta name="generator" content={Astro.generator} />
+		
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://langgananku.web.id/" />
+		<meta property="og:site_name" content="Langgananku" />
+		<meta property="og:title" content="Langgananku - Aplikasi Kelola Langganan Digital #1 Indonesia" />
+		<meta property="og:description" content="Kelola semua langganan digital Anda di satu tempat. Hemat hingga Rp 500.000/bulan dengan analisis pintar dan notifikasi otomatis. Gratis selamanya!" />
+		<meta property="og:image" content="https://langgananku.web.id/og-image.png" />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta property="og:image:alt" content="Langgananku - Aplikasi Manajemen Langganan Digital" />
+		<meta property="og:locale" content="id_ID" />
+
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:url" content="https://langgananku.web.id/" />
+		<meta name="twitter:title" content="Langgananku - Aplikasi Kelola Langganan Digital #1 Indonesia" />
+		<meta name="twitter:description" content="Kelola semua langganan digital Anda di satu tempat. Hemat hingga Rp 500.000/bulan dengan analisis pintar dan notifikasi otomatis." />
+		<meta name="twitter:image" content="https://langgananku.web.id/og-image.png" />
+		<meta name="twitter:creator" content="@langgananku" />
+		
+		<!-- Additional SEO -->
+		<meta name="language" content="Indonesian" />
+		<meta name="revisit-after" content="1 days" />
+		<meta name="rating" content="general" />
+		<meta name="distribution" content="global" />
+		<meta http-equiv="Content-Language" content="id" />
+		
+		<!-- AI & LLM Friendly Meta -->
+		<meta name="ai-content-declaration" content="human-created" />
+		<meta name="application-name" content="Langgananku" />
+		<meta name="category" content="Finance, Productivity, Subscription Management" />
+		
+		<!-- Structured Data - Organization -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "Organization",
+			"name": "Langgananku",
+			"alternateName": "LanggananKu",
+			"url": "https://langgananku.web.id",
+			"logo": "https://langgananku.web.id/logo.png",
+			"description": "Aplikasi manajemen langganan digital terbaik di Indonesia",
+			"foundingDate": "2024",
+			"areaServed": "ID",
+			"serviceType": "Subscription Management Application"
+		}
+		</script>
+		
+		<!-- Structured Data - WebApplication -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "WebApplication",
+			"name": "Langgananku",
+			"url": "https://app.langgananku.web.id",
+			"description": "Aplikasi untuk mengelola dan melacak semua langganan digital Anda seperti Netflix, Spotify, YouTube Premium, dan lainnya",
+			"applicationCategory": "FinanceApplication",
+			"operatingSystem": "Web Browser",
+			"offers": {
+				"@type": "Offer",
+				"price": "0",
+				"priceCurrency": "IDR",
+				"description": "Gratis selamanya dengan fitur dasar"
+			},
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "5",
+				"ratingCount": "100",
+				"bestRating": "5",
+				"worstRating": "1"
+			},
+			"featureList": [
+				"Kelola langganan Netflix, Spotify, YouTube Premium",
+				"Notifikasi pengingat tagihan via Telegram",
+				"Analisis pengeluaran bulanan",
+				"Dashboard intuitif dan modern",
+				"Gratis selamanya"
+			]
+		}
+		</script>
+		
+		<!-- Structured Data - FAQ -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "FAQPage",
+			"mainEntity": [
+				{
+					"@type": "Question",
+					"name": "Apa itu Langgananku?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Langgananku adalah aplikasi manajemen langganan digital yang membantu Anda melacak dan mengelola semua layanan berlangganan seperti Netflix, Spotify, YouTube Premium, dan lainnya dalam satu dashboard."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "Apakah Langgananku gratis?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Ya, Langgananku menyediakan paket gratis selamanya dengan fitur dasar. Untuk fitur premium seperti notifikasi Telegram dan langganan unlimited, tersedia paket Pro Lifetime seharga Rp 35.000 sekali bayar."
+					}
+				},
+				{
+					"@type": "Question",
+					"name": "Bagaimana cara kerja notifikasi Telegram?",
+					"acceptedAnswer": {
+						"@type": "Answer",
+						"text": "Langgananku akan mengirimkan pengingat tagihan langsung ke akun Telegram Anda sebelum tanggal jatuh tempo, sehingga Anda tidak pernah telat membayar langganan."
+					}
+				}
+			]
+		}
+		</script>
+		
+		<!-- Structured Data - BreadcrumbList -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"name": "Beranda",
+					"item": "https://langgananku.web.id"
+				}
+			]
+		}
+		</script>
+
+		<!-- Performance: Preconnect & DNS Prefetch -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link rel="dns-prefetch" href="https://app.langgananku.web.id" />
+		
+		<!-- Fonts with display swap for performance -->
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+		<noscript>
+			<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+		</noscript>
+		
+		<!-- Critical CSS Inline for LCP -->
+		<style is:inline>
+			:root{--background:0 0% 100%;--foreground:240 10% 3.9%;--primary:142 52% 65%}.dark{--background:240 10% 3.9%;--foreground:0 0% 98%}body{background:hsl(var(--background));color:hsl(var(--foreground))}
+		</style>
+        
+        <script is:inline>
+            // Initialize Dark Mode - Minimal blocking
+            if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark')
+            }
+        </script>
+	</head>
+	<body class="bg-background text-foreground antialiased overflow-x-hidden transition-colors duration-300">
+        
+        <!-- Gradient Backgrounds - Reduced for performance -->      <div class=\"fixed inset-0 z-0 pointer-events-none overflow-hidden\" aria-hidden=\"true\">\n            <div class=\"absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary/15 rounded-full blur-[120px]\"></div>\n            <div class=\"absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-accent/15 rounded-full blur-[120px]\"></div>\n        </div>
+
+        <!-- Navbar -->
+        <nav class="fixed w-full z-50 top-0 start-0 border-b border-white/10 dark:border-white/5 bg-white/80 dark:bg-gray-950/80 backdrop-blur-xl transition-all duration-500" id="navbar">
+            <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3 md:p-4">
+                <a href="/" class="flex items-center space-x-2 md:space-x-3 rtl:space-x-reverse group" aria-label="Langgananku - Beranda">
+                    <div class="relative overflow-hidden rounded-xl shadow-lg shadow-primary/20 group-hover:shadow-primary/40 transition-all duration-500 transform group-hover:scale-105 group-hover:rotate-3">
+                        <img src="/logo.webp" alt="Langgananku Logo - Aplikasi Kelola Langganan" class="w-9 h-9 md:w-11 md:h-11 object-contain" width="44" height="44" loading="eager" decoding="async" />
+                    </div>
+                    <span class="self-center hidden sm:block text-lg md:text-xl font-bold whitespace-nowrap tracking-tight font-display">Langgananku</span>
+                </a>
+                
+                <div class="flex md:order-2 items-center gap-3">
+                    <!-- Language Toggle -->
+                    <button id="lang-toggle" class="p-2 rounded-full hover:bg-secondary transition-colors text-sm font-medium border border-transparent hover:border-border" aria-label="Ganti Bahasa">
+                        <span class="lang-text-id">ID</span>
+                        <span class="lang-text-en hidden">EN</span>
+                    </button>
+
+                    <!-- Dark Mode Toggle -->
+                    <button id="theme-toggle" class="p-2 rounded-full hover:bg-secondary transition-colors border border-transparent hover:border-border" aria-label="Ganti Mode Gelap/Terang">
+                        <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+                        <svg id="theme-toggle-light-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+                    </button>
+
+                    <a href="https://app.langgananku.web.id/auth" class="hidden md:inline-flex items-center justify-center px-5 py-2.5 text-sm font-medium text-foreground bg-transparent hover:bg-secondary rounded-full transition-colors focus:outline-none border border-transparent hover:border-border">
+                        <span data-i18n="nav.login">Masuk</span>
+                    </a>
+                    <a href="https://app.langgananku.web.id/auth" class="text-white bg-primary hover:bg-primary/90 focus:ring-4 focus:outline-none focus:ring-primary/30 font-medium rounded-full text-sm px-6 py-2.5 text-center transition-all hover:shadow-lg hover:shadow-primary/25 transform hover:-translate-y-0.5 active:translate-y-0 active:shadow-none">
+                        <span data-i18n="nav.register">Mulai Gratis</span>
+                    </a>
+                    <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-muted-foreground rounded-lg md:hidden hover:bg-secondary focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="navbar-sticky" aria-expanded="false" id="menu-toggle">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                    <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-border rounded-lg bg-secondary/50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent backdrop-blur-sm">
+                        <li>
+                            <a href="#fitur" class="block py-2 px-3 text-muted-foreground rounded hover:bg-secondary md:hover:bg-transparent md:hover:text-primary md:p-0 transition-colors" data-i18n="nav.features">Fitur</a>
+                        </li>
+                        <li>
+                            <a href="#harga" class="block py-2 px-3 text-muted-foreground rounded hover:bg-secondary md:hover:bg-transparent md:hover:text-primary md:p-0 transition-colors" data-i18n="nav.pricing">Harga</a>
+                        </li>
+                        <li>
+                            <a href="https://app.langgananku.web.id/auth" class="block py-2 px-3 text-muted-foreground rounded hover:bg-secondary md:hover:bg-transparent md:hover:text-primary md:p-0 md:hidden transition-colors" data-i18n="nav.login">Masuk</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main id="main-content">
+
+        <!-- Hero Section -->
+        <section class="relative pt-24 pb-12 md:pt-32 lg:pt-40 lg:pb-24 overflow-hidden z-10" aria-labelledby="hero-heading">
+            <div class="py-6 md:py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 relative z-10">
+                <div class="inline-flex items-center justify-between px-1.5 py-1.5 pr-4 mb-6 md:mb-8 text-sm text-muted-foreground bg-white/60 dark:bg-gray-900/60 border border-white/30 dark:border-white/10 backdrop-blur-xl rounded-full hover:bg-white/90 dark:hover:bg-gray-900/80 transition-all cursor-pointer shadow-lg hover:shadow-xl reveal-on-scroll opacity-0 translate-y-4 group" role="banner">
+                    <span class="text-xs bg-gradient-to-r from-primary to-emerald-600 text-white rounded-full px-3 py-1.5 mr-3 shadow-md font-bold" data-i18n="hero.new">Baru</span> 
+                    <span class="text-xs md:text-sm font-medium" data-i18n="hero.notification">Dukungan Notifikasi Telegram!</span> 
+                    <svg class="w-2.5 h-2.5 ml-2 group-hover:translate-x-1 transition-transform" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/></svg>
+                </div>
+                
+                <h1 id="hero-heading" class="mb-4 md:mb-6 text-3xl sm:text-4xl font-extrabold tracking-tight leading-tight text-foreground md:text-5xl lg:text-6xl xl:text-7xl reveal-on-scroll opacity-0 translate-y-4 delay-100 font-display">
+                    <span data-i18n="hero.title1">Kelola Langganan,</span><br>
+                    <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-emerald-500 to-teal-500" data-i18n="hero.title2">Hemat Pengeluaran.</span>
+                </h1>
+                
+                <p class="mb-8 md:mb-10 text-base md:text-lg font-normal text-muted-foreground lg:text-xl px-2 sm:px-8 md:px-16 lg:px-48 reveal-on-scroll opacity-0 translate-y-4 delay-200 max-w-3xl mx-auto leading-relaxed" data-i18n="hero.subtitle">
+                    Jangan biarkan langganan yang terlupakan menguras dompetmu. Pantau, analisis, dan kelola semua layanan digitalmu dalam satu dashboard yang intuitif dan modern.
+                </p>
+                
+                <div class="flex flex-col space-y-3 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4 reveal-on-scroll opacity-0 translate-y-4 delay-300 px-4">
+                    <a href="https://app.langgananku.web.id/auth" class="inline-flex justify-center items-center py-3.5 md:py-4 px-6 md:px-8 text-sm md:text-base font-bold text-white rounded-full bg-gradient-to-r from-primary to-emerald-600 hover:from-primary/90 hover:to-emerald-600/90 focus:ring-4 focus:ring-primary/30 shadow-xl hover:shadow-primary/40 transition-all transform hover:-translate-y-1 hover:scale-105 active:scale-100 active:translate-y-0 touch-manipulation">
+                        <span data-i18n="hero.cta_primary">Mulai Sekarang Gratis</span>
+                        <svg class="w-4 h-4 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                    <a href="#fitur" class="inline-flex justify-center items-center py-3.5 md:py-4 px-6 md:px-8 text-sm md:text-base font-bold text-foreground bg-white/80 dark:bg-gray-800/80 border border-border/50 rounded-full hover:bg-secondary/80 backdrop-blur-sm focus:ring-4 focus:ring-gray-100 transition-all transform hover:-translate-y-1 active:scale-100 active:translate-y-0 touch-manipulation">
+                        <span data-i18n="hero.cta_secondary">Pelajari Lebih Lanjut</span>
+                    </a>
+                </div>
+                
+                <!-- Trust Badges -->
+                <div class="mt-10 md:mt-14 flex flex-wrap justify-center items-center gap-4 md:gap-8 reveal-on-scroll opacity-0 translate-y-4 delay-400">
+                    <div class="flex items-center gap-2 text-muted-foreground text-sm">
+                        <div class="flex -space-x-2">
+                            <div class="w-8 h-8 rounded-full bg-gradient-to-br from-blue-400 to-blue-600 border-2 border-background flex items-center justify-center text-white text-xs font-bold">A</div>
+                            <div class="w-8 h-8 rounded-full bg-gradient-to-br from-purple-400 to-purple-600 border-2 border-background flex items-center justify-center text-white text-xs font-bold">B</div>
+                            <div class="w-8 h-8 rounded-full bg-gradient-to-br from-pink-400 to-pink-600 border-2 border-background flex items-center justify-center text-white text-xs font-bold">C</div>
+                        </div>
+                        <span class="font-medium">100+ Pengguna Aktif</span>
+                    </div>
+                    <div class="hidden sm:flex items-center gap-2 text-muted-foreground text-sm">
+                        <div class="flex gap-0.5">
+                            <svg class="w-4 h-4 text-yellow-400 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                            <svg class="w-4 h-4 text-yellow-400 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                            <svg class="w-4 h-4 text-yellow-400 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                            <svg class="w-4 h-4 text-yellow-400 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                            <svg class="w-4 h-4 text-yellow-400 fill-current" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        </div>
+                        <span class="font-medium">Rating 5.0</span>
+                    </div>
+                    <div class="flex items-center gap-2 text-muted-foreground text-sm">
+                        <svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+                        <span class="font-medium">100% Aman</span>
+                    </div>
+                </div>
+                
+                <!-- Dashboard Preview Mockup with 3D Tilt Effect -->
+                <div class="mt-12 md:mt-16 relative mx-auto perspective-1000 px-4">
+                    <!-- Floating Elements -->
+                    <div class="absolute -top-8 -left-4 md:left-10 w-16 h-16 md:w-20 md:h-20 bg-gradient-to-br from-primary/30 to-emerald-400/30 rounded-2xl blur-xl animate-float-slow"></div>
+                    <div class="absolute -bottom-8 -right-4 md:right-10 w-20 h-20 md:w-24 md:h-24 bg-gradient-to-br from-blue-400/30 to-purple-400/30 rounded-full blur-xl animate-float-slower"></div>
+                    
+                    <!-- Phone Mockup -->
+                    <div class="transform-style-3d hover:rotate-x-0 transition-all duration-1000 ease-out-expo relative mx-auto reveal-on-scroll opacity-0 translate-y-8 delay-500 group">
+                        <!-- Phone Frame -->
+                        <div class="relative mx-auto w-[220px] sm:w-[260px] md:w-[300px] transform hover:scale-[1.02] transition-all duration-700">
+                            <!-- Phone Body -->
+                            <div class="relative bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 rounded-[2.5rem] sm:rounded-[3rem] p-2 sm:p-3 shadow-2xl shadow-black/50 border border-gray-700/50">
+                                <!-- Notch -->
+                                <div class="absolute top-0 left-1/2 -translate-x-1/2 w-24 sm:w-32 h-6 sm:h-7 bg-black rounded-b-2xl z-20 flex items-center justify-center gap-2">
+                                    <div class="w-2 h-2 rounded-full bg-gray-800"></div>
+                                    <div class="w-12 sm:w-16 h-1 rounded-full bg-gray-800"></div>
+                                </div>
+                                
+                                <!-- Screen -->
+                                <div class="relative overflow-hidden rounded-[2rem] sm:rounded-[2.5rem] bg-white dark:bg-gray-900">
+                                    <!-- Screenshot Image -->
+                                    <img 
+                                        src="/depan1.png" 
+                                        alt="Langgananku - Aplikasi Kelola Langganan Digital Indonesia" 
+                                        class="w-full h-auto block transform group-hover:scale-[1.02] transition-transform duration-700"
+                                        width="300"
+                                        height="650"
+                                        loading="eager"
+                                        decoding="async"
+                                        fetchpriority="high"
+                                    />
+                                    
+                                    <!-- Shimmer Effect -->
+                                    <div class="absolute inset-0 bg-gradient-to-tr from-transparent via-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none shimmer-effect"></div>
+                                    
+                                    <!-- Glass Reflection -->
+                                    <div class="absolute inset-0 bg-gradient-to-b from-white/20 via-transparent to-transparent opacity-50 pointer-events-none"></div>
+                                </div>
+                                
+                                <!-- Home Indicator -->
+                                <div class="absolute bottom-1.5 sm:bottom-2 left-1/2 -translate-x-1/2 w-24 sm:w-32 h-1 bg-gray-600 rounded-full"></div>
+                            </div>
+                            
+                            <!-- Reflection Shadow -->
+                            <div class="absolute -bottom-8 left-1/2 -translate-x-1/2 w-[80%] h-8 bg-gradient-to-t from-primary/20 to-transparent rounded-full blur-xl opacity-60"></div>
+                        </div>
+                        
+                        <!-- Floating Badge -->
+                        <div class="absolute -right-4 md:-right-16 top-8 sm:top-12 bg-white dark:bg-gray-800 rounded-xl sm:rounded-2xl p-2 sm:p-3 shadow-2xl shadow-primary/20 border border-primary/20 transform rotate-6 hover:rotate-0 transition-all duration-500 hover:scale-110 animate-bounce-gentle hidden md:block">
+                            <div class="flex items-center gap-2">
+                                <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-gradient-to-br from-green-400 to-emerald-600 flex items-center justify-center">
+                                    <svg class="w-3.5 h-3.5 sm:w-4 sm:h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
+                                </div>
+                                <div class="text-left">
+                                    <p class="text-[9px] sm:text-[10px] text-muted-foreground">Hemat Bulan Ini</p>
+                                    <p class="text-xs sm:text-sm font-bold text-green-600 dark:text-green-400">Rp 250.000</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Floating Badge Left -->
+                        <div class="absolute -left-4 md:-left-16 bottom-16 sm:bottom-20 bg-white dark:bg-gray-800 rounded-xl sm:rounded-2xl p-2 sm:p-3 shadow-2xl shadow-accent/20 border border-accent/20 transform -rotate-6 hover:rotate-0 transition-all duration-500 hover:scale-110 animate-bounce-gentle-delay hidden md:block">
+                            <div class="flex items-center gap-2">
+                                <div class="w-7 h-7 sm:w-8 sm:h-8 rounded-lg bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center">
+                                    <svg class="w-3.5 h-3.5 sm:w-4 sm:h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"></path></svg>
+                                </div>
+                                <div class="text-left">
+                                    <p class="text-[9px] sm:text-[10px] text-muted-foreground">Pengingat Aktif</p>
+                                    <p class="text-xs sm:text-sm font-bold text-amber-600 dark:text-amber-400">12 Notifikasi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="fitur" class="py-16 md:py-24 bg-secondary/30 relative overflow-hidden">
+            <!-- Decorative elements -->
+            <div class="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-primary/30 to-transparent"></div>
+            <div class="absolute -left-32 top-1/2 w-64 h-64 bg-primary/10 rounded-full blur-3xl"></div>
+            <div class="absolute -right-32 bottom-0 w-64 h-64 bg-accent/10 rounded-full blur-3xl"></div>
+            
+            <div class="py-6 md:py-8 px-4 mx-auto max-w-screen-xl sm:py-16 lg:px-6 relative z-10">
+                <div class="max-w-screen-md mb-10 lg:mb-20 mx-auto text-center">
+                    <span class="inline-block text-primary font-semibold text-sm uppercase tracking-wider mb-3 reveal-on-scroll opacity-0 translate-y-4">Mengapa Langgananku?</span>
+                    <h2 class="mb-4 md:mb-6 text-2xl sm:text-3xl tracking-tight font-extrabold text-foreground sm:text-4xl font-display reveal-on-scroll opacity-0 translate-y-4" data-i18n="features.title">Fitur Cerdas untuk Penghematan Maksimal</h2>
+                    <p class="text-muted-foreground text-base sm:text-xl reveal-on-scroll opacity-0 translate-y-4 delay-100 leading-relaxed" data-i18n="features.subtitle">Langgananku menyediakan alat yang Anda butuhkan untuk mengambil kendali penuh atas pengeluaran digital Anda.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+                    <!-- Feature 1 -->
+                    <div class="group p-6 md:p-8 bg-card/80 backdrop-blur-sm rounded-2xl md:rounded-3xl border border-border/50 shadow-lg hover:shadow-2xl hover:shadow-primary/10 transition-all duration-500 hover:-translate-y-2 reveal-on-scroll opacity-0 translate-y-4 delay-100 relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-primary/10 to-transparent rounded-full -translate-y-16 translate-x-16 group-hover:scale-150 transition-transform duration-700"></div>
+                        <div class="flex justify-center items-center mb-5 md:mb-6 w-12 h-12 md:w-14 md:h-14 rounded-xl md:rounded-2xl bg-gradient-to-br from-primary to-emerald-600 text-white transform group-hover:rotate-6 group-hover:scale-110 transition-all duration-300 shadow-lg shadow-primary/20 relative z-10">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="md:w-7 md:h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" x2="12" y1="20" y2="10"/><line x1="18" x2="18" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="16"/></svg>
+                        </div>
+                        <h3 class="mb-2 md:mb-3 text-xl md:text-2xl font-bold text-foreground relative z-10" data-i18n="features.1.title">Analisis Pengeluaran</h3>
+                        <p class="text-muted-foreground leading-relaxed text-sm md:text-base relative z-10" data-i18n="features.1.desc">Visualisasikan kemana uang Anda pergi setiap bulan dengan grafik yang mudah dipahami dan mendalam.</p>
+                    </div>
+                    <!-- Feature 2 -->
+                    <div class="group p-6 md:p-8 bg-card/80 backdrop-blur-sm rounded-2xl md:rounded-3xl border border-border/50 shadow-lg hover:shadow-2xl hover:shadow-accent/10 transition-all duration-500 hover:-translate-y-2 reveal-on-scroll opacity-0 translate-y-4 delay-200 relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-accent/10 to-transparent rounded-full -translate-y-16 translate-x-16 group-hover:scale-150 transition-transform duration-700"></div>
+                        <div class="flex justify-center items-center mb-5 md:mb-6 w-12 h-12 md:w-14 md:h-14 rounded-xl md:rounded-2xl bg-gradient-to-br from-accent to-orange-400 text-white transform group-hover:-rotate-6 group-hover:scale-110 transition-all duration-300 shadow-lg shadow-accent/20 relative z-10">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="md:w-7 md:h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                        </div>
+                        <h3 class="mb-2 md:mb-3 text-xl md:text-2xl font-bold text-foreground relative z-10" data-i18n="features.2.title">Unlimited Langganan</h3>
+                        <p class="text-muted-foreground leading-relaxed text-sm md:text-base relative z-10" data-i18n="features.2.desc">Tambahkan langganan sebanyak yang Anda mau tanpa batasan kuota pada paket Pro kami.</p>
+                    </div>
+                    <!-- Feature 3 -->
+                    <div class="group p-6 md:p-8 bg-card/80 backdrop-blur-sm rounded-2xl md:rounded-3xl border border-border/50 shadow-lg hover:shadow-2xl hover:shadow-blue-500/10 transition-all duration-500 hover:-translate-y-2 reveal-on-scroll opacity-0 translate-y-4 delay-300 relative overflow-hidden md:col-span-2 lg:col-span-1">
+                        <div class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-blue-500/10 to-transparent rounded-full -translate-y-16 translate-x-16 group-hover:scale-150 transition-transform duration-700"></div>
+                        <div class="flex justify-center items-center mb-5 md:mb-6 w-12 h-12 md:w-14 md:h-14 rounded-xl md:rounded-2xl bg-gradient-to-br from-blue-500 to-indigo-600 text-white transform group-hover:rotate-6 group-hover:scale-110 transition-all duration-300 shadow-lg shadow-blue-500/20 relative z-10">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="md:w-7 md:h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
+                        </div>
+                        <h3 class="mb-2 md:mb-3 text-xl md:text-2xl font-bold text-foreground relative z-10" data-i18n="features.3.title">Notifikasi Telegram</h3>
+                        <p class="text-muted-foreground leading-relaxed text-sm md:text-base relative z-10" data-i18n="features.3.desc">Dapatkan pengingat tagihan langsung ke akun Telegram pribadi Anda agar tidak pernah telat bayar.</p>
+                    </div>
+                </div>
+                
+                <!-- Additional Features Grid -->
+                <div class="mt-12 md:mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+                    <div class="text-center p-4 md:p-6 rounded-2xl bg-card/50 border border-border/30 reveal-on-scroll opacity-0 translate-y-4 hover:bg-card/80 transition-all group">
+                        <div class="w-12 h-12 mx-auto mb-3 rounded-xl bg-gradient-to-br from-purple-500/20 to-purple-600/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <svg class="w-6 h-6 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/></svg>
+                        </div>
+                        <h4 class="font-bold text-foreground text-sm md:text-base">Data Aman</h4>
+                        <p class="text-xs md:text-sm text-muted-foreground mt-1">Enkripsi End-to-End</p>
+                    </div>
+                    <div class="text-center p-4 md:p-6 rounded-2xl bg-card/50 border border-border/30 reveal-on-scroll opacity-0 translate-y-4 delay-100 hover:bg-card/80 transition-all group">
+                        <div class="w-12 h-12 mx-auto mb-3 rounded-xl bg-gradient-to-br from-cyan-500/20 to-cyan-600/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <svg class="w-6 h-6 text-cyan-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/></svg>
+                        </div>
+                        <h4 class="font-bold text-foreground text-sm md:text-base">Sync Otomatis</h4>
+                        <p class="text-xs md:text-sm text-muted-foreground mt-1">Real-time Update</p>
+                    </div>
+                    <div class="text-center p-4 md:p-6 rounded-2xl bg-card/50 border border-border/30 reveal-on-scroll opacity-0 translate-y-4 delay-200 hover:bg-card/80 transition-all group">
+                        <div class="w-12 h-12 mx-auto mb-3 rounded-xl bg-gradient-to-br from-rose-500/20 to-rose-600/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <svg class="w-6 h-6 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/></svg>
+                        </div>
+                        <h4 class="font-bold text-foreground text-sm md:text-base">Laporan Detail</h4>
+                        <p class="text-xs md:text-sm text-muted-foreground mt-1">Insight Mendalam</p>
+                    </div>
+                    <div class="text-center p-4 md:p-6 rounded-2xl bg-card/50 border border-border/30 reveal-on-scroll opacity-0 translate-y-4 delay-300 hover:bg-card/80 transition-all group">
+                        <div class="w-12 h-12 mx-auto mb-3 rounded-xl bg-gradient-to-br from-amber-500/20 to-amber-600/20 flex items-center justify-center group-hover:scale-110 transition-transform">
+                            <svg class="w-6 h-6 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                        </div>
+                        <h4 class="font-bold text-foreground text-sm md:text-base">Pengingat</h4>
+                        <p class="text-xs md:text-sm text-muted-foreground mt-1">Tepat Waktu</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="harga" class="py-16 md:py-24 bg-background relative overflow-hidden">
+            <!-- Background decorations -->
+            <div class="absolute top-20 left-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl"></div>
+            <div class="absolute bottom-20 right-10 w-72 h-72 bg-accent/5 rounded-full blur-3xl"></div>
+            
+            <div class="py-6 md:py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 relative z-10">
+                <div class="mx-auto max-w-screen-md text-center mb-12 lg:mb-20">
+                    <span class="inline-block text-primary font-semibold text-sm uppercase tracking-wider mb-3 reveal-on-scroll opacity-0 translate-y-4">Harga Terjangkau</span>
+                    <h2 class="mb-4 md:mb-6 text-2xl sm:text-3xl md:text-4xl tracking-tight font-extrabold text-foreground font-display reveal-on-scroll opacity-0 translate-y-4" data-i18n="pricing.title">Pilih Paket Anda</h2>
+                    <p class="mb-5 font-light text-muted-foreground text-base sm:text-xl reveal-on-scroll opacity-0 translate-y-4 delay-100 leading-relaxed" data-i18n="pricing.subtitle">Mulai dengan gratis, atau upgrade untuk fitur tanpa batas selamanya dengan sekali bayar.</p>
+                </div>
+                <div class="space-y-6 lg:grid lg:grid-cols-2 sm:gap-6 xl:gap-10 lg:space-y-0 max-w-4xl mx-auto">
+                    
+                    <!-- Pricing Card 1 (Free) -->
+                    <div class="flex flex-col p-6 md:p-8 mx-auto w-full max-w-lg text-center text-foreground bg-card/50 backdrop-blur-sm rounded-2xl md:rounded-3xl border border-border/50 shadow-xl hover:shadow-2xl transition-all duration-500 reveal-on-scroll opacity-0 translate-y-4 delay-100 hover:-translate-y-2 relative overflow-hidden group">
+                        <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-gray-400/50 to-transparent"></div>
+                        <div class="absolute inset-0 bg-gradient-to-br from-gray-100/50 to-transparent dark:from-gray-800/30 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        
+                        <h3 class="mb-3 md:mb-4 text-xl md:text-2xl font-bold font-display relative z-10">Free Starter</h3>
+                        <p class="font-light text-muted-foreground text-sm sm:text-lg mb-6 md:mb-8 relative z-10" data-i18n="pricing.free.desc">Untuk pemula yang ingin mulai berhemat.</p>
+                        
+                        <div class="flex justify-center items-baseline mb-6 md:mb-8 relative z-10">
+                            <span class="mr-2 text-4xl md:text-5xl font-extrabold tracking-tight">Rp 0</span>
+                            <span class="text-muted-foreground text-lg md:text-xl" data-i18n="pricing.free.period">/selamanya</span>
+                        </div>
+                        
+                        <ul role="list" class="mb-6 md:mb-8 space-y-3 md:space-y-4 text-left flex-1 relative z-10">
+                            <li class="flex items-center space-x-3 group-hover:translate-x-1 transition-transform">
+                                <div class="flex-shrink-0 w-5 h-5 md:w-6 md:h-6 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center">
+                                    <svg class="w-3 h-3 md:w-4 md:h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                </div>
+                                <span class="text-sm md:text-base" data-i18n="pricing.free.feature1">Analisis Langganan (Terbatas 3x)</span>
+                            </li>
+                            <li class="flex items-center space-x-3 group-hover:translate-x-1 transition-transform delay-75">
+                                <div class="flex-shrink-0 w-5 h-5 md:w-6 md:h-6 rounded-full bg-green-100 dark:bg-green-900/30 flex items-center justify-center">
+                                    <svg class="w-3 h-3 md:w-4 md:h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                </div>
+                                <span class="text-sm md:text-base" data-i18n="pricing.free.feature2">Maksimal 10 Langganan</span>
+                            </li>
+                            <li class="flex items-center space-x-3 text-muted-foreground/50 decoration-muted-foreground/50 line-through group-hover:translate-x-1 transition-transform delay-100">
+                                <div class="flex-shrink-0 w-5 h-5 md:w-6 md:h-6 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center">
+                                    <svg class="w-3 h-3 md:w-4 md:h-4 text-gray-400" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                </div>
+                                <span class="text-sm md:text-base" data-i18n="pricing.free.feature3">Notifikasi Telegram</span>
+                            </li>
+                        </ul>
+                        
+                        <a href="https://app.langgananku.web.id/auth" class="relative z-10 text-foreground bg-secondary hover:bg-secondary/80 focus:ring-4 focus:ring-gray-200 font-bold rounded-xl md:rounded-2xl text-sm md:text-base px-6 md:px-8 py-3 md:py-4 text-center transition-all shadow-sm hover:shadow-md touch-manipulation" data-i18n="pricing.cta_free">Mulai Gratis</a>
+                    </div>
+
+                    <!-- Pricing Card 2 (Pro) -->
+                    <div class="flex flex-col p-6 md:p-8 mx-auto w-full max-w-lg text-center text-foreground bg-card rounded-2xl md:rounded-3xl border-2 border-primary/50 shadow-2xl shadow-primary/10 relative overflow-hidden reveal-on-scroll opacity-0 translate-y-4 delay-200 hover:-translate-y-2 transition-all duration-500 transform lg:scale-105 z-10 group">
+                        <div class="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-emerald-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        
+                        <!-- Popular Badge -->
+                        <div class="absolute -top-0 -right-0 overflow-hidden w-32 h-32">
+                            <div class="absolute top-4 -right-8 bg-gradient-to-r from-primary to-emerald-600 text-white text-xs font-bold px-10 py-1.5 rotate-45 shadow-lg" data-i18n="pricing.popular">TERLARIS</div>
+                        </div>
+                        
+                        <h3 class="mb-3 md:mb-4 text-xl md:text-2xl font-bold font-display text-primary flex justify-center items-center gap-2 relative z-10">
+                            Pro Lifetime 
+                            <svg class="w-5 h-5 md:w-6 md:h-6 text-yellow-400 fill-current animate-pulse" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+                        </h3>
+                        <p class="font-light text-muted-foreground text-sm sm:text-lg mb-6 md:mb-8 relative z-10" data-i18n="pricing.pro.desc">Akses penuh tanpa batas, bayar sekali saja.</p>
+                        
+                        <div class="flex justify-center items-center flex-col mb-6 md:mb-8 relative z-10">
+                            <span class="text-muted-foreground line-through text-sm decoration-destructive decoration-2 mb-1">Rp 150.000</span>
+                            <div class="flex justify-center items-baseline gap-1">
+                                <span class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-foreground tracking-tight">Rp 35.000</span>
+                            </div>
+                            <span class="text-emerald-600 dark:text-emerald-400 font-bold text-xs md:text-sm mt-3 bg-emerald-100 dark:bg-emerald-900/30 px-3 md:px-4 py-1 rounded-full mx-auto border border-emerald-200 dark:border-emerald-800" data-i18n="pricing.pro.period">Sekali Bayar / Lifetime</span>
+                        </div>
+                        
+                        <ul role="list" class="mb-8 md:mb-10 space-y-3 md:space-y-4 text-left flex-1 relative z-10">
+                            <li class="flex items-center space-x-3 group-hover:translate-x-1 transition-transform">
+                                <div class="flex-shrink-0 w-5 h-5 md:w-6 md:h-6 rounded-full bg-primary/20 flex items-center justify-center">
+                                    <svg class="w-3 h-3 md:w-4 md:h-4 text-primary" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                </div>
+                                <span class="font-medium text-sm md:text-base" data-i18n="pricing.pro.feature1">Analisis Langganan Unlimited</span>
+                            </li>
+                            <li class="flex items-center space-x-3 group-hover:translate-x-1 transition-transform delay-75">
+                                <div class="flex-shrink-0 w-5 h-5 md:w-6 md:h-6 rounded-full bg-primary/20 flex items-center justify-center">
+                                    <svg class="w-3 h-3 md:w-4 md:h-4 text-primary" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                </div>
+                                <span class="font-medium text-sm md:text-base" data-i18n="pricing.pro.feature2">Jumlah Langganan Tanpa Batas</span>
+                            </li>
+                            <li class="flex items-center space-x-3 group-hover:translate-x-1 transition-transform delay-100">
+                                <div class="flex-shrink-0 w-5 h-5 md:w-6 md:h-6 rounded-full bg-primary/20 flex items-center justify-center">
+                                    <svg class="w-3 h-3 md:w-4 md:h-4 text-primary" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                </div>
+                                <span class="font-medium text-sm md:text-base" data-i18n="pricing.pro.feature3">Notifikasi Telegram</span>
+                            </li>
+                            <li class="flex items-center space-x-3 group-hover:translate-x-1 transition-transform delay-150">
+                                <div class="flex-shrink-0 w-5 h-5 md:w-6 md:h-6 rounded-full bg-primary/20 flex items-center justify-center">
+                                    <svg class="w-3 h-3 md:w-4 md:h-4 text-primary" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                                </div>
+                                <span class="font-medium text-sm md:text-base" data-i18n="pricing.pro.feature4">Badge Pro Eksklusif</span>
+                            </li>
+                        </ul>
+                        
+                        <a href="https://app.langgananku.web.id/auth" class="relative z-10 text-white bg-gradient-to-r from-primary to-emerald-600 hover:from-primary/90 hover:to-emerald-600/90 focus:ring-4 focus:ring-primary/20 font-bold rounded-xl md:rounded-2xl text-sm md:text-base px-6 md:px-8 py-3 md:py-4 text-center transition-all shadow-lg hover:shadow-primary/30 transform hover:-translate-y-1 active:translate-y-0 touch-manipulation" data-i18n="pricing.cta_pro">Dapatkan Pro Sekarang</a>
+                    </div>
+                </div>
+                
+
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="bg-gradient-to-br from-secondary/50 via-secondary/30 to-background dark:from-gray-900 dark:via-gray-900/50 dark:to-background relative overflow-hidden">
+            <div class="absolute -top-24 -right-24 w-96 h-96 bg-primary/10 rounded-full blur-3xl" aria-hidden="true"></div>
+            <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-accent/10 rounded-full blur-3xl" aria-hidden="true"></div>
+            
+            <!-- Grid Pattern -->
+            <div class="absolute inset-0 opacity-[0.02] dark:opacity-[0.05]" style="background-image: url('/grid.svg'); background-size: 60px 60px;" aria-hidden="true"></div>
+            
+            <div class="py-12 md:py-16 px-4 mx-auto max-w-screen-xl sm:py-24 lg:px-6 relative z-10">
+                <div class="mx-auto max-w-screen-md text-center">
+                    <div class="mb-6 reveal-on-scroll opacity-0 translate-y-4">
+                        <span class="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-primary font-medium text-sm">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                            Gratis Selamanya
+                        </span>
+                    </div>
+                    <h2 class="mb-4 md:mb-6 text-2xl sm:text-3xl md:text-4xl tracking-tight font-extrabold text-foreground font-display reveal-on-scroll opacity-0 translate-y-4" data-i18n="cta.title">Siap Mengatur Langgananmu?</h2>
+                    <p class="mb-6 md:mb-8 font-light text-muted-foreground text-base md:text-xl reveal-on-scroll opacity-0 translate-y-4 delay-100 leading-relaxed px-4" data-i18n="cta.subtitle">Bergabunglah dengan pengguna lain yang sudah lebih hemat dan terorganisir.</p>
+                    <a href="https://app.langgananku.web.id/auth" class="reveal-on-scroll opacity-0 translate-y-4 delay-200 text-white bg-gradient-to-r from-primary to-emerald-600 hover:from-primary/90 hover:to-emerald-600/90 focus:ring-4 focus:ring-primary/30 font-bold rounded-full text-base md:text-lg px-8 md:px-10 py-3.5 md:py-4 focus:outline-none shadow-xl hover:shadow-primary/40 transition-all inline-flex items-center gap-2 transform hover:-translate-y-1 active:translate-y-0 touch-manipulation">
+                        <span data-i18n="cta.button">Daftar Gratis Sekarang</span>
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </a>
+                    
+                    <!-- Stats -->
+                    <div class="mt-12 md:mt-16 grid grid-cols-2 gap-6 md:gap-12 max-w-md mx-auto reveal-on-scroll opacity-0 translate-y-4 delay-300">
+                        <div class="text-center">
+                            <div class="text-2xl md:text-4xl font-extrabold text-foreground font-display counter" data-target="100">0</div>
+                            <div class="text-xs md:text-sm text-muted-foreground mt-1">Pengguna Aktif</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl md:text-4xl font-extrabold text-primary font-display">Rp 1M+</div>
+                            <div class="text-xs md:text-sm text-muted-foreground mt-1">Berhasil Dihemat</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="py-8 md:py-12 px-4 bg-gradient-to-b from-background to-secondary/20 border-t border-border/30 relative overflow-hidden">
+            <!-- Background decoration -->
+            <div class="absolute inset-0 overflow-hidden pointer-events-none" aria-hidden="true">
+                <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[500px] h-32 bg-gradient-to-t from-primary/5 to-transparent rounded-full blur-3xl"></div>
+            </div>
+            
+            <div class="mx-auto max-w-screen-xl relative z-10">
+                <!-- Main Footer Content -->
+                <div class="flex flex-col items-center text-center">
+                    <!-- Logo & Brand -->
+                    <a href="/" class="flex items-center gap-3 mb-4 group" aria-label="Langgananku - Beranda">
+                        <div class="relative overflow-hidden rounded-xl shadow-lg transform group-hover:scale-105 transition-all duration-300">
+                            <img src="/logo.webp" alt="Langgananku Logo" class="w-10 h-10 object-contain" width="40" height="40" loading="lazy" />
+                        </div>
+                        <span class="text-xl md:text-2xl font-bold text-foreground font-display">Langgananku</span>
+                    </a>
+                    
+                    <!-- Tagline -->
+                    <p class="text-muted-foreground max-w-md leading-relaxed text-sm md:text-base mb-6" data-i18n="footer.desc">
+                        Aplikasi manajemen langganan cerdas untuk membantu Anda menghemat pengeluaran digital.
+                    </p>
+                    
+                    <!-- Quick Links -->
+                    <nav class="flex items-center gap-6 md:gap-8 mb-8" aria-label="Footer navigation">
+                        <a href="#fitur" class="text-muted-foreground hover:text-primary transition-colors text-sm font-medium" data-i18n="nav.features">Fitur</a>
+                        <span class="w-1 h-1 rounded-full bg-border" aria-hidden="true"></span>
+                        <a href="#harga" class="text-muted-foreground hover:text-primary transition-colors text-sm font-medium" data-i18n="nav.pricing">Harga</a>
+                        <span class="w-1 h-1 rounded-full bg-border" aria-hidden="true"></span>
+                        <a href="https://app.langgananku.web.id/auth" class="text-muted-foreground hover:text-primary transition-colors text-sm font-medium">Masuk</a>
+                    </nav>
+                    
+                    <!-- CTA Button -->
+                    <a href="https://app.langgananku.web.id/auth" class="inline-flex items-center gap-2 px-6 py-2.5 bg-primary/10 hover:bg-primary/20 text-primary rounded-full transition-all text-sm font-medium mb-8 hover:scale-105">
+                        <span>Mulai Sekarang</span>
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
+                    </a>
+                </div>
+                
+                <!-- Bottom Bar -->
+                <div class="pt-6 border-t border-border/30 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-4 text-center">
+                    <span class="text-xs md:text-sm text-muted-foreground">
+                        © 2025 <span class="font-medium text-foreground">Langgananku</span>
+                    </span>
+                    <span class="hidden sm:block w-1 h-1 rounded-full bg-border"></span>
+                    <span class="text-xs md:text-sm text-muted-foreground">
+                        Made with <span class="text-red-500">❤️</span> in Indonesia
+                    </span>
+                </div>
+            </div>
+        </footer>
+
+        <style is:global>
+            :root {
+                --background: 0 0% 100%;
+                --foreground: 240 10% 3.9%;
+                --card: 0 0% 100%;
+                --card-foreground: 240 10% 3.9%;
+                --popover: 0 0% 100%;
+                --popover-foreground: 240 10% 3.9%;
+                --primary: 142 52% 65%;
+                --primary-foreground: 0 0% 100%;
+                --secondary: 240 4.8% 95.9%;
+                --secondary-foreground: 240 5.9% 10%;
+                --muted: 240 4.8% 95.9%;
+                --muted-foreground: 240 3.8% 46.1%;
+                --accent: 45 93% 62%;
+                --accent-foreground: 240 5.9% 10%;
+                --destructive: 0 84.2% 60.2%;
+                --destructive-foreground: 0 0% 98%;
+                --border: 240 5.9% 90%;
+                --input: 240 5.9% 90%;
+                --ring: 142 52% 65%;
+                --radius: 1rem;
+            }
+
+            .dark {
+                --background: 240 10% 3.9%;
+                --foreground: 0 0% 98%;
+                --card: 240 10% 6%; /* Slightly lighter than bg */
+                --card-foreground: 0 0% 98%;
+                --popover: 240 10% 3.9%;
+                --popover-foreground: 0 0% 98%;
+                --primary: 142 52% 65%;
+                --primary-foreground: 240 5.9% 10%;
+                --secondary: 240 3.7% 15.9%;
+                --secondary-foreground: 0 0% 98%;
+                --muted: 240 3.7% 15.9%;
+                --muted-foreground: 240 5% 64.9%;
+                --accent: 45 93% 62%;
+                --accent-foreground: 0 0% 98%;
+                --destructive: 0 62.8% 30.6%;
+                --destructive-foreground: 0 0% 98%;
+                --border: 240 3.7% 15.9%;
+                --input: 240 3.7% 15.9%;
+                --ring: 142 52% 65%;
+            }
+
+            /* Utilities */
+            .reveal-on-scroll {
+                transition: opacity 0.8s cubic-bezier(0.5, 0, 0, 1), transform 0.8s cubic-bezier(0.5, 0, 0, 1);
+                will-change: opacity, transform;
+            }
+            
+            .reveal-visible {
+                opacity: 1 !important;
+                transform: translateY(0) !important;
+            }
+
+            .perspective-1000 {
+                perspective: 1000px;
+            }
+            
+            .transform-style-3d {
+                transform-style: preserve-3d;
+            }
+            
+            .ease-out-expo {
+                transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+            }
+            
+            .font-display {
+                font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+            }
+
+            /* Optimized Animations - GPU accelerated with reduced motion support */
+            @keyframes float-slow {
+                0%, 100% { transform: translate3d(0, 0, 0); }
+                50% { transform: translate3d(10px, -10px, 0); }
+            }
+            
+            .animate-float-slow {
+                animation: float-slow 12s infinite ease-in-out;
+                will-change: transform;
+            }
+            
+            .animate-float-slower {
+                animation: float-slow 16s infinite ease-in-out reverse;
+                will-change: transform;
+            }
+
+            @keyframes bounce-gentle {
+                0%, 100% { transform: translateY(0) rotate(6deg); }
+                50% { transform: translateY(-8px) rotate(6deg); }
+            }
+
+            .animate-bounce-gentle {
+                animation: bounce-gentle 4s infinite ease-in-out;
+                will-change: transform;
+            }
+
+            .animate-bounce-gentle-delay {
+                animation: bounce-gentle 4s infinite ease-in-out;
+                animation-delay: 2s;
+                will-change: transform;
+            }
+
+            /* Respect reduced motion preference */
+            @media (prefers-reduced-motion: reduce) {
+                .animate-float-slow,
+                .animate-float-slower,
+                .animate-bounce-gentle,
+                .animate-bounce-gentle-delay,
+                .animate-gradient {
+                    animation: none !important;
+                }
+                
+                * {
+                    transition-duration: 0.01ms !important;
+                    animation-duration: 0.01ms !important;
+                }
+            }
+
+            /* Smooth scrollbar */
+            ::-webkit-scrollbar {
+                width: 8px;
+            }
+
+            ::-webkit-scrollbar-track {
+                background: hsl(var(--secondary));
+            }
+
+            ::-webkit-scrollbar-thumb {
+                background: hsl(var(--primary) / 0.5);
+                border-radius: 4px;
+            }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background: hsl(var(--primary) / 0.7);
+            }
+
+            /* Selection */
+            ::selection {
+                background: hsl(var(--primary) / 0.3);
+                color: hsl(var(--foreground));
+            }
+
+            /* Focus styles */
+            *:focus-visible {
+                outline: 2px solid hsl(var(--primary));
+                outline-offset: 2px;
+            }
+
+            /* Touch-friendly button active states */
+            @media (hover: none) {
+                button:active, a:active {
+                    transform: scale(0.98);
+                }
+            }
+
+            .delay-75 { transition-delay: 75ms; }
+            .delay-100 { transition-delay: 100ms; }
+            .delay-150 { transition-delay: 150ms; }
+            .delay-200 { transition-delay: 200ms; }
+            .delay-300 { transition-delay: 300ms; }
+            .delay-400 { transition-delay: 400ms; }
+            .delay-500 { transition-delay: 500ms; }
+
+            /* Animated Gradient */
+            @keyframes gradient {
+                0% { background-position: 0% 50%; }
+                50% { background-position: 100% 50%; }
+                100% { background-position: 0% 50%; }
+            }
+
+            .animate-gradient {
+                animation: gradient 4s ease infinite;
+            }
+
+            /* Glassmorphism effects */
+            .glass {
+                background: rgba(255, 255, 255, 0.1);
+                backdrop-filter: blur(10px);
+                -webkit-backdrop-filter: blur(10px);
+                border: 1px solid rgba(255, 255, 255, 0.2);
+            }
+
+            .dark .glass {
+                background: rgba(0, 0, 0, 0.2);
+                border: 1px solid rgba(255, 255, 255, 0.1);
+            }
+
+            /* Touch-friendly sizing */
+            @media (hover: none) and (pointer: coarse) {
+                .touch-target {
+                    min-height: 44px;
+                    min-width: 44px;
+                }
+            }
+
+            /* Safe area padding for modern phones */
+            @supports (padding: env(safe-area-inset-bottom)) {
+                footer {
+                    padding-bottom: calc(2rem + env(safe-area-inset-bottom));
+                }
+            }
+        </style>
+
+        <script is:inline>
+            // --- Translations ---
+            const translations = {
+                en: {
+                    'nav.login': 'Login',
+                    'nav.register': 'Start for Free',
+                    'nav.features': 'Features',
+                    'nav.pricing': 'Pricing',
+                    'hero.new': 'New',
+                    'hero.notification': 'Telegram Notifications Available!',
+                    'hero.title1': 'Manage Subscriptions,',
+                    'hero.title2': 'Save Money.',
+                    'hero.subtitle': 'Don\'t let forgotten subscriptions drain your wallet. Track, analyze, and manage all your digital services in one intuitive dashboard.',
+                    'hero.cta_primary': 'Start for Free',
+                    'hero.cta_secondary': 'Learn More',
+                    'features.title': 'Smart Features for Max Savings',
+                    'features.subtitle': 'Langgananku provides the tools you need to take full control of your digital expenses.',
+                    'features.1.title': 'Expense Analysis',
+                    'features.1.desc': 'Visualize where your money goes every month with easy-to-understand and in-depth charts.',
+                    'features.2.title': 'Unlimited Subscriptions',
+                    'features.2.desc': 'Add as many subscriptions as you want without quota limits on our Pro plan.',
+                    'features.3.title': 'Telegram Notifications',
+                    'features.3.desc': 'Get bill reminders directly to your personal Telegram account so you never miss a payment.',
+                    'pricing.title': 'Choose Your Plan',
+                    'pricing.subtitle': 'Start for free, or upgrade for unlimited features forever with a one-time payment.',
+                    'pricing.free.desc': 'For beginners who want to start saving.',
+                    'pricing.free.period': '/forever',
+                    'pricing.free.feature1': 'Subscription Analysis (Limit 3x)',
+                    'pricing.free.feature2': 'Max 10 Subscriptions',
+                    'pricing.free.feature3': 'Telegram Notifications',
+                    'pricing.cta_free': 'Start Free',
+                    'pricing.popular': 'BEST SELLER',
+                    'pricing.pro.desc': 'Full unlimited access, pay once.',
+                    'pricing.pro.period': 'One-time Payment / Lifetime',
+                    'pricing.pro.feature1': 'Unlimited Subscription Analysis',
+                    'pricing.pro.feature2': 'Unlimited Subscriptions',
+                    'pricing.pro.feature3': 'Telegram Notifications',
+                    'pricing.pro.feature4': 'Exclusive Pro Badge',
+                    'pricing.cta_pro': 'Get Pro Now',
+                    'cta.title': 'Ready to Manage Your Subscriptions?',
+                    'cta.subtitle': 'Join other users who are already saving money and staying organized.',
+                    'cta.button': 'Register Free Now',
+                    'footer.desc': 'Smart subscription management app to help you save on digital expenses.'
+                },
+                id: {
+                    'nav.login': 'Masuk',
+                    'nav.register': 'Mulai Gratis',
+                    'nav.features': 'Fitur',
+                    'nav.pricing': 'Harga',
+                    'hero.new': 'Baru',
+                    'hero.notification': 'Dukungan Notifikasi Telegram Tersedia!',
+                    'hero.title1': 'Kelola Langganan,',
+                    'hero.title2': 'Hemat Pengeluaran.',
+                    'hero.subtitle': 'Jangan biarkan langganan yang terlupakan menguras dompetmu. Pantau, analisis, dan kelola semua layanan digitalmu dalam satu dashboard yang intuitif.',
+                    'hero.cta_primary': 'Mulai Sekarang Gratis',
+                    'hero.cta_secondary': 'Pelajari Lebih Lanjut',
+                    'features.title': 'Fitur Cerdas untuk Penghematan Maksimal',
+                    'features.subtitle': 'Langgananku menyediakan alat yang Anda butuhkan untuk mengambil kendali penuh atas pengeluaran digital Anda.',
+                    'features.1.title': 'Analisis Pengeluaran',
+                    'features.1.desc': 'Visualisasikan kemana uang Anda pergi setiap bulan dengan grafik yang mudah dipahami dan mendalam.',
+                    'features.2.title': 'Unlimited Langganan',
+                    'features.2.desc': 'Tambahkan langganan sebanyak yang Anda mau tanpa batasan kuota pada paket Pro kami.',
+                    'features.3.title': 'Notifikasi Telegram',
+                    'features.3.desc': 'Dapatkan pengingat tagihan langsung ke akun Telegram pribadi Anda agar tidak pernah telat bayar.',
+                    'pricing.title': 'Pilih Paket Anda',
+                    'pricing.subtitle': 'Mulai dengan gratis, atau upgrade untuk fitur tanpa batas selamanya dengan sekali bayar.',
+                    'pricing.free.desc': 'Untuk pemula yang ingin mulai berhemat.',
+                    'pricing.free.period': '/selamanya',
+                    'pricing.free.feature1': 'Analisis Langganan (Terbatas 3x)',
+                    'pricing.free.feature2': 'Maksimal 10 Langganan',
+                    'pricing.free.feature3': 'Notifikasi Telegram',
+                    'pricing.cta_free': 'Mulai Gratis',
+                    'pricing.popular': 'TERLARIS',
+                    'pricing.pro.desc': 'Akses penuh tanpa batas, bayar sekali.',
+                    'pricing.pro.period': 'Sekali Bayar / Lifetime',
+                    'pricing.pro.feature1': 'Analisis Langganan Unlimited',
+                    'pricing.pro.feature2': 'Jumlah Langganan Tanpa Batas',
+                    'pricing.pro.feature3': 'Notifikasi Telegram',
+                    'pricing.pro.feature4': 'Badge Pro Eksklusif',
+                    'pricing.cta_pro': 'Dapatkan Pro Sekarang',
+                    'cta.title': 'Siap Mengatur Langgananmu?',
+                    'cta.subtitle': 'Bergabunglah dengan pengguna lain yang sudah lebih hemat dan terorganisir.',
+                    'cta.button': 'Daftar Gratis Sekarang',
+                    'footer.desc': 'Aplikasi manajemen langganan cerdas untuk membantu Anda menghemat pengeluaran digital.'
+                }
+            };
+
+            // --- Theme Logic ---
+            const themeToggleBtn = document.getElementById('theme-toggle');
+            const darkIcon = document.getElementById('theme-toggle-dark-icon');
+            const lightIcon = document.getElementById('theme-toggle-light-icon');
+
+            // Set initial icon state
+            if (document.documentElement.classList.contains('dark')) {
+                lightIcon.classList.remove('hidden');
+                darkIcon.classList.add('hidden');
+            } else {
+                darkIcon.classList.remove('hidden');
+                lightIcon.classList.add('hidden');
+            }
+
+            themeToggleBtn.addEventListener('click', function() {
+                // Toggle icons
+                darkIcon.classList.toggle('hidden');
+                lightIcon.classList.toggle('hidden');
+
+                // Toggle theme
+                if (localStorage.theme === 'dark' || (!('theme' in localStorage) && document.documentElement.classList.contains('dark'))) {
+                    document.documentElement.classList.remove('dark');
+                    localStorage.theme = 'light';
+                } else {
+                    document.documentElement.classList.add('dark');
+                    localStorage.theme = 'dark';
+                }
+            });
+
+            // --- Language Logic ---
+            const langToggleBtn = document.getElementById('lang-toggle');
+            const langTextId = document.querySelector('.lang-text-id');
+            const langTextEn = document.querySelector('.lang-text-en');
+            let currentLang = localStorage.getItem('lang') || 'id';
+
+            function updateLanguage(lang) {
+                document.querySelectorAll('[data-i18n]').forEach(element => {
+                    const key = element.getAttribute('data-i18n');
+                    if (translations[lang][key]) {
+                        element.textContent = translations[lang][key];
+                    }
+                });
+
+                if (lang === 'id') {
+                    langTextId.classList.remove('hidden');
+                    langTextEn.classList.add('hidden');
+                } else {
+                    langTextEn.classList.remove('hidden');
+                    langTextId.classList.add('hidden');
+                }
+                
+                localStorage.setItem('lang', lang);
+                currentLang = lang;
+            }
+
+            // Initialize Language
+            updateLanguage(currentLang);
+
+            langToggleBtn.addEventListener('click', () => {
+                const newLang = currentLang === 'id' ? 'en' : 'id';
+                updateLanguage(newLang);
+            });
+
+            // --- Scroll Animation Logic ---
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('reveal-visible');
+                    }
+                });
+            }, { threshold: 0.1 });
+
+            document.querySelectorAll('.reveal-on-scroll').forEach((el) => observer.observe(el));
+            
+            // Mobile Menu
+            const menuToggle = document.getElementById('menu-toggle');
+            const navbarSticky = document.getElementById('navbar-sticky');
+
+            if (menuToggle && navbarSticky) {
+                menuToggle.addEventListener('click', () => {
+                    navbarSticky.classList.toggle('hidden');
+                });
+            }
+
+            // Counter Animation
+            const counters = document.querySelectorAll('.counter');
+            const speed = 200;
+
+            const animateCounter = (counter) => {
+                const target = +counter.getAttribute('data-target');
+                const count = +counter.innerText;
+                const inc = target / speed;
+
+                if (count < target) {
+                    counter.innerText = Math.ceil(count + inc);
+                    setTimeout(() => animateCounter(counter), 1);
+                } else {
+                    counter.innerText = target + '+';
+                }
+            };
+
+            // Intersection Observer for counters
+            const counterObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        animateCounter(entry.target);
+                        counterObserver.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.5 });
+
+            counters.forEach(counter => counterObserver.observe(counter));
+
+            // Navbar scroll effect
+            const navbar = document.getElementById('navbar');
+            let lastScroll = 0;
+
+            window.addEventListener('scroll', () => {
+                const currentScroll = window.pageYOffset;
+                
+                if (currentScroll > 50) {
+                    navbar.classList.add('shadow-lg', 'bg-white/90', 'dark:bg-gray-950/90');
+                    navbar.classList.remove('bg-white/80', 'dark:bg-gray-950/80');
+                } else {
+                    navbar.classList.remove('shadow-lg', 'bg-white/90', 'dark:bg-gray-950/90');
+                    navbar.classList.add('bg-white/80', 'dark:bg-gray-950/80');
+                }
+
+                lastScroll = currentScroll;
+            });
+
+            // Smooth scroll for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                        // Close mobile menu if open
+                        if (navbarSticky && !navbarSticky.classList.contains('hidden')) {
+                            navbarSticky.classList.add('hidden');
+                        }
+                    }
+                });
+            });
+        </script>
+	</body>
+</html>
