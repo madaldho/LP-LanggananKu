@@ -3,6 +3,7 @@
 Landing page untuk aplikasi Langgananku.
 
 Tech stack:
+
 - Astro
 - Tailwind CSS
 
