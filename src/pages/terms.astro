@@ -1,341 +1,195 @@
 ---
-// Langgananku - Terms of Service Page
+// Langgananku - Terms of Service
 ---
 
 <!doctype html>
-<html lang="id" class="scroll-smooth">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		
-		<!-- Primary Meta Tags -->
-		<title>Syarat & Ketentuan - Langgananku</title>
-		<meta name="title" content="Syarat & Ketentuan - Langgananku" />
-		<meta name="description" content="Syarat dan Ketentuan penggunaan aplikasi Langgananku. Baca dengan seksama sebelum menggunakan layanan kami." />
+		<title>Terms of Service - Langgananku</title>
+		<meta name="description" content="Terms of Service for Langgananku application. Please read carefully before using our service." />
 		<meta name="robots" content="index, follow" />
-		
-		<!-- Favicon & Icons -->
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-		<link rel="icon" type="image/png" sizes="32x32" href="/logo.png" />
-		<link rel="apple-touch-icon" sizes="180x180" href="/logo.png" />
-		<meta name="theme-color" content="#22c55e" />
-		
-		<!-- Canonical -->
 		<link rel="canonical" href="https://langgananku.web.id/terms" />
-
-		<!-- Fonts - Optimized loading -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+		<style>
+			* { margin: 0; padding: 0; box-sizing: border-box; }
+			body {
+				font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+				background: #fafafa;
+				color: #1a1a1a;
+				line-height: 1.7;
+			}
+			@media (prefers-color-scheme: dark) {
+				body { background: #0a0a0a; color: #e5e5e5; }
+				.container { background: #0a0a0a; }
+				nav { background: rgba(10,10,10,0.95); border-color: #222; }
+				header { border-color: #222; }
+				h2 { color: #fff; }
+				.highlight { background: #1a1a1a; border-color: #333; }
+				.warning { background: rgba(239,68,68,0.1); }
+				footer { border-color: #222; }
+				a { color: #22c55e; }
+				p, li { color: #aaa; }
+				.date { color: #888; }
+			}
+			nav {
+				position: fixed;
+				top: 0;
+				left: 0;
+				right: 0;
+				background: rgba(250,250,250,0.95);
+				backdrop-filter: blur(10px);
+				border-bottom: 1px solid #e5e5e5;
+				z-index: 50;
+			}
+			nav .inner {
+				max-width: 800px;
+				margin: 0 auto;
+				padding: 1rem 1.5rem;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+			}
+			nav a { color: inherit; text-decoration: none; font-weight: 500; }
+			nav .logo { display: flex; align-items: center; gap: 0.75rem; }
+			nav .logo img { width: 32px; height: 32px; border-radius: 8px; }
+			.container {
+				max-width: 800px;
+				margin: 0 auto;
+				padding: 6rem 1.5rem 3rem;
+			}
+			header { margin-bottom: 2.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid #e5e5e5; }
+			h1 { font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem; }
+			.date { color: #666; font-size: 0.9rem; }
+			h2 { font-size: 1.25rem; font-weight: 600; margin: 2rem 0 1rem; color: #111; }
+			p { margin-bottom: 1rem; color: #444; }
+			ul { padding-left: 1.5rem; margin-bottom: 1rem; }
+			li { margin-bottom: 0.5rem; color: #444; }
+			.highlight {
+				background: #f5f5f5;
+				border-left: 3px solid #22c55e;
+				padding: 1rem 1.25rem;
+				margin: 1.5rem 0;
+				border-radius: 0 8px 8px 0;
+			}
+			.highlight p { margin: 0; }
+			.warning {
+				background: #fef2f2;
+				border-left: 3px solid #ef4444;
+				padding: 1rem 1.25rem;
+				margin: 1.5rem 0;
+				border-radius: 0 8px 8px 0;
+			}
+			.warning p { margin: 0; color: #b91c1c; }
+			@media (prefers-color-scheme: dark) { .warning p { color: #fca5a5; } }
+			footer {
+				max-width: 800px;
+				margin: 0 auto;
+				padding: 2rem 1.5rem;
+				border-top: 1px solid #e5e5e5;
+				text-align: center;
+				font-size: 0.875rem;
+				color: #666;
+			}
+			footer a { color: #22c55e; text-decoration: none; }
+			footer a:hover { text-decoration: underline; }
+			@media (max-width: 640px) {
+				h1 { font-size: 1.5rem; }
+				h2 { font-size: 1.1rem; }
+			}
+		</style>
 	</head>
-	<body class="bg-background text-foreground font-sans antialiased">
-		<!-- Navigation -->
-		<nav class="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border/50">
-			<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-				<div class="flex items-center justify-between h-16">
-					<a href="/" class="flex items-center gap-3 group">
-						<img src="/logo.webp" alt="Langgananku" class="w-8 h-8 rounded-lg" width="32" height="32" />
-						<span class="text-lg font-bold text-foreground font-display">Langgananku</span>
-					</a>
-					<a href="/" class="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-primary transition-colors">
-						<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
-						Kembali
-					</a>
-				</div>
+	<body>
+		<nav>
+			<div class="inner">
+				<a href="/" class="logo">
+					<img src="/logo.webp" alt="Langgananku" />
+					<span>Langgananku</span>
+				</a>
+				<a href="/">← Back</a>
 			</div>
 		</nav>
 
-		<!-- Main Content -->
-		<main class="pt-24 pb-16 px-4 sm:px-6 lg:px-8">
-			<article class="max-w-3xl mx-auto">
-				<!-- Header -->
-				<header class="text-center mb-12 pb-8 border-b border-border/50">
-					<div class="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 rounded-full text-primary text-sm font-medium mb-6">
-						<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
-						Ketentuan Layanan
-					</div>
-					<h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-foreground font-display mb-4 bg-gradient-to-r from-primary to-emerald-400 bg-clip-text text-transparent">
-						Syarat & Ketentuan
-					</h1>
-					<p class="text-muted-foreground">Terakhir diperbarui: 5 Desember 2025</p>
-				</header>
+		<div class="container">
+			<header>
+				<h1>Terms of Service</h1>
+				<p class="date">Last updated: December 5, 2025</p>
+			</header>
 
-				<!-- Content -->
-				<div class="prose prose-lg dark:prose-invert max-w-none">
-					<p class="text-muted-foreground leading-relaxed text-lg">
-						Terima kasih telah memilih <strong class="text-foreground">Langgananku</strong>. Syarat Layanan ini penting untuk menggunakan aplikasi kami. Kami mohon Anda membacanya dengan seksama sebelum melanjutkan.
-					</p>
+			<p>Thank you for choosing <strong>Langgananku</strong>. These Terms of Service are important for using our application. Please read them carefully before proceeding.</p>
 
-					<p class="text-muted-foreground leading-relaxed">
-						Dengan menggunakan Langgananku, Anda setuju untuk terikat dengan Syarat ini. Jika Anda tidak setuju dengan Syarat ini, mohon untuk tidak menggunakan aplikasi kami.
-					</p>
+			<p>By using Langgananku, you agree to be bound by these Terms. If you do not agree with these Terms, please do not use our application.</p>
 
-					<!-- Section: Tentang Aplikasi -->
-					<section class="mt-10">
-						<h2 class="flex items-center gap-3 text-xl sm:text-2xl font-bold text-foreground mb-4">
-							<span class="flex items-center justify-center w-10 h-10 rounded-xl bg-primary/10 text-primary">📱</span>
-							Tentang Aplikasi
-						</h2>
-						<p class="text-muted-foreground leading-relaxed mb-4">
-							Langgananku adalah aplikasi pelacak langganan (subscription tracker) yang membantu Anda:
-						</p>
-						<ul class="space-y-3">
-							<li class="flex items-start gap-3 text-muted-foreground">
-								<span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary text-xs">✓</span>
-								Mencatat dan mengelola semua langganan Anda
-							</li>
-							<li class="flex items-start gap-3 text-muted-foreground">
-								<span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary text-xs">✓</span>
-								Mendapatkan pengingat sebelum tanggal pembayaran
-							</li>
-							<li class="flex items-start gap-3 text-muted-foreground">
-								<span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary text-xs">✓</span>
-								Melacak pengeluaran bulanan untuk berbagai layanan
-							</li>
-							<li class="flex items-start gap-3 text-muted-foreground">
-								<span class="flex-shrink-0 w-6 h-6 rounded-full bg-primary/10 flex items-center justify-center text-primary text-xs">✓</span>
-								Menyinkronkan data antar perangkat
-							</li>
-						</ul>
+			<h2>About the Application</h2>
+			<p>Langgananku is a subscription tracker application that helps you:</p>
+			<ul>
+				<li>Record and manage all your subscriptions</li>
+				<li>Receive reminders before payment dates</li>
+				<li>Track monthly expenses for various services</li>
+				<li>Sync data across devices</li>
+			</ul>
 
-						<div class="mt-6 p-5 bg-blue-500/10 border-l-4 border-blue-500 rounded-r-xl">
-							<p class="text-foreground font-medium mb-2">ℹ️ Penting</p>
-							<p class="text-muted-foreground">
-								Langgananku adalah aplikasi pencatat/pelacak langganan. Kami <strong class="text-foreground">TIDAK</strong> memproses pembayaran atau mengelola langganan Anda secara langsung. Semua pembayaran dan pengelolaan langganan dilakukan melalui penyedia layanan masing-masing.
-							</p>
-						</div>
-					</section>
-
-					<!-- Section: Akun Pengguna -->
-					<section class="mt-10">
-						<h2 class="flex items-center gap-3 text-xl sm:text-2xl font-bold text-foreground mb-4">
-							<span class="flex items-center justify-center w-10 h-10 rounded-xl bg-purple-500/10 text-purple-500">👤</span>
-							Akun Pengguna
-						</h2>
-						<ul class="space-y-3">
-							<li class="flex items-start gap-3 text-muted-foreground">
-								<span class="flex-shrink-0 w-6 h-6 rounded-full bg-purple-500/10 flex items-center justify-center text-purple-500 text-xs">1</span>
-								Anda bertanggung jawab untuk menjaga keamanan kredensial akun Anda
-							</li>
-							<li class="flex items-start gap-3 text-muted-foreground">
-								<span class="flex-shrink-0 w-6 h-6 rounded-full bg-purple-500/10 flex items-center justify-center text-purple-500 text-xs">2</span>
-								Anda harus memberikan informasi yang akurat saat mendaftar
-							</li>
-							<li class="flex items-start gap-3 text-muted-foreground">
-								<span class="flex-shrink-0 w-6 h-6 rounded-full bg-purple-500/10 flex items-center justify-center text-purple-500 text-xs">3</span>
-								Satu akun hanya untuk satu pengguna
-							</li>
-							<li class="flex items-start gap-3 text-muted-foreground">
-								<span class="flex-shrink-0 w-6 h-6 rounded-full bg-purple-500/10 flex items-center justify-center text-purple-500 text-xs">4</span>
-								Anda dapat menghapus akun Anda kapan saja dengan menghubungi kami
-							</li>
-						</ul>
-					</section>
-
-					<!-- Section: Larangan Umum -->
-					<section class="mt-10">
-						<h2 class="flex items-center gap-3 text-xl sm:text-2xl font-bold text-foreground mb-4">
-							<span class="flex items-center justify-center w-10 h-10 rounded-xl bg-red-500/10 text-red-500">🚫</span>
-							Larangan Umum
-						</h2>
-						<p class="text-muted-foreground leading-relaxed mb-4">
-							Sebagai pengguna Langgananku, Anda setuju untuk tidak terlibat dalam aktivitas berikut:
-						</p>
-						<ul class="space-y-3">
-							<li class="flex items-start gap-3 text-muted-foreground">
-								<span class="flex-shrink-0 w-6 h-6 rounded-full bg-red-500/10 flex items-center justify-center text-red-500 text-xs">✕</span>
-								Menguji kerentanan sistem atau jaringan Langgananku
-							</li>
-							<li class="flex items-start gap-3 text-muted-foreground">
-								<span class="flex-shrink-0 w-6 h-6 rounded-full bg-red-500/10 flex items-center justify-center text-red-500 text-xs">✕</span>
-								Mengakses, merusak, atau menggunakan area non-publik dari Langgananku
-							</li>
-							<li class="flex items-start gap-3 text-muted-foreground">
-								<span class="flex-shrink-0 w-6 h-6 rounded-full bg-red-500/10 flex items-center justify-center text-red-500 text-xs">✕</span>
-								Mendekompilasi, membongkar, atau merekayasa balik perangkat lunak kami
-							</li>
-							<li class="flex items-start gap-3 text-muted-foreground">
-								<span class="flex-shrink-0 w-6 h-6 rounded-full bg-red-500/10 flex items-center justify-center text-red-500 text-xs">✕</span>
-								Mengganggu akses pengguna lain termasuk dengan mengirim virus atau spam
-							</li>
-							<li class="flex items-start gap-3 text-muted-foreground">
-								<span class="flex-shrink-0 w-6 h-6 rounded-full bg-red-500/10 flex items-center justify-center text-red-500 text-xs">✕</span>
-								Menggunakan bot, scraper, atau alat otomatis yang tidak diizinkan
-							</li>
-							<li class="flex items-start gap-3 text-muted-foreground">
-								<span class="flex-shrink-0 w-6 h-6 rounded-full bg-red-500/10 flex items-center justify-center text-red-500 text-xs">✕</span>
-								Menanam malware atau mendistribusikan konten berbahaya
-							</li>
-							<li class="flex items-start gap-3 text-muted-foreground">
-								<span class="flex-shrink-0 w-6 h-6 rounded-full bg-red-500/10 flex items-center justify-center text-red-500 text-xs">✕</span>
-								Memalsukan identitas atau menyalahgunakan afiliasi dengan pihak lain
-							</li>
-							<li class="flex items-start gap-3 text-muted-foreground">
-								<span class="flex-shrink-0 w-6 h-6 rounded-full bg-red-500/10 flex items-center justify-center text-red-500 text-xs">✕</span>
-								Melanggar privasi orang lain atau hukum yang berlaku
-							</li>
-						</ul>
-
-						<div class="mt-6 p-5 bg-red-500/10 border-l-4 border-red-500 rounded-r-xl">
-							<p class="text-foreground font-medium mb-2">⚠️ Peringatan</p>
-							<p class="text-red-300">
-								Pelanggaran terhadap syarat ini dapat mengakibatkan penghentian akun Anda tanpa pemberitahuan sebelumnya.
-							</p>
-						</div>
-					</section>
-
-					<!-- Section: Konten Pengguna -->
-					<section class="mt-10">
-						<h2 class="flex items-center gap-3 text-xl sm:text-2xl font-bold text-foreground mb-4">
-							<span class="flex items-center justify-center w-10 h-10 rounded-xl bg-amber-500/10 text-amber-500">📝</span>
-							Konten Pengguna
-						</h2>
-						<p class="text-muted-foreground leading-relaxed">
-							Semua data langganan yang Anda masukkan ke aplikasi adalah milik Anda. Kami hanya menyimpan dan memproses data tersebut untuk menyediakan layanan kepada Anda. Anda bertanggung jawab atas keakuratan data yang Anda masukkan.
-						</p>
-					</section>
-
-					<!-- Section: Batasan Tanggung Jawab -->
-					<section class="mt-10">
-						<h2 class="flex items-center gap-3 text-xl sm:text-2xl font-bold text-foreground mb-4">
-							<span class="flex items-center justify-center w-10 h-10 rounded-xl bg-gray-500/10 text-gray-400">⚖️</span>
-							Batasan Tanggung Jawab
-						</h2>
-						<p class="text-muted-foreground leading-relaxed mb-4">Langgananku mengakui bahwa:</p>
-						<ul class="space-y-3">
-							<li class="flex items-start gap-3 text-muted-foreground">
-								<span class="flex-shrink-0 w-6 h-6 rounded-full bg-gray-500/10 flex items-center justify-center text-gray-400 text-xs">•</span>
-								Kami tidak bertanggung jawab atas ketidakakuratan atau kesalahan dalam data yang Anda masukkan
-							</li>
-							<li class="flex items-start gap-3 text-muted-foreground">
-								<span class="flex-shrink-0 w-6 h-6 rounded-full bg-gray-500/10 flex items-center justify-center text-gray-400 text-xs">•</span>
-								Layanan tidak memberikan jaminan atau garansi
-							</li>
-							<li class="flex items-start gap-3 text-muted-foreground">
-								<span class="flex-shrink-0 w-6 h-6 rounded-full bg-gray-500/10 flex items-center justify-center text-gray-400 text-xs">•</span>
-								Kami tidak bertanggung jawab atas kerusakan langsung atau tidak langsung yang timbul dari penggunaan layanan
-							</li>
-							<li class="flex items-start gap-3 text-muted-foreground">
-								<span class="flex-shrink-0 w-6 h-6 rounded-full bg-gray-500/10 flex items-center justify-center text-gray-400 text-xs">•</span>
-								Layanan dan kontennya disediakan "sebagaimana adanya" dan "sebagaimana tersedia"
-							</li>
-						</ul>
-					</section>
-
-					<!-- Section: Perubahan Layanan -->
-					<section class="mt-10">
-						<h2 class="flex items-center gap-3 text-xl sm:text-2xl font-bold text-foreground mb-4">
-							<span class="flex items-center justify-center w-10 h-10 rounded-xl bg-cyan-500/10 text-cyan-500">🔄</span>
-							Perubahan Layanan
-						</h2>
-						<p class="text-muted-foreground leading-relaxed">
-							Kami berhak untuk memodifikasi atau menghentikan layanan (atau bagian darinya) kapan saja, dengan atau tanpa pemberitahuan. Kami tidak akan bertanggung jawab kepada Anda atau pihak ketiga mana pun atas modifikasi, penangguhan, atau penghentian layanan.
-						</p>
-					</section>
-
-					<!-- Section: Perubahan Syarat -->
-					<section class="mt-10">
-						<h2 class="flex items-center gap-3 text-xl sm:text-2xl font-bold text-foreground mb-4">
-							<span class="flex items-center justify-center w-10 h-10 rounded-xl bg-indigo-500/10 text-indigo-500">📜</span>
-							Perubahan Syarat
-						</h2>
-						<p class="text-muted-foreground leading-relaxed">
-							Kami dapat merevisi Syarat Layanan ini dari waktu ke waktu. Perubahan material akan diumumkan melalui aplikasi atau email. Penggunaan berkelanjutan Anda atas layanan setelah perubahan tersebut merupakan persetujuan Anda terhadap syarat yang direvisi.
-						</p>
-					</section>
-
-					<!-- Section: Hukum yang Berlaku -->
-					<section class="mt-10">
-						<h2 class="flex items-center gap-3 text-xl sm:text-2xl font-bold text-foreground mb-4">
-							<span class="flex items-center justify-center w-10 h-10 rounded-xl bg-green-500/10 text-green-500">🇮🇩</span>
-							Hukum yang Berlaku
-						</h2>
-						<p class="text-muted-foreground leading-relaxed">
-							Syarat ini diatur oleh dan ditafsirkan sesuai dengan hukum <strong class="text-foreground">Republik Indonesia</strong>, tanpa memperhatikan prinsip-prinsip konflik hukumnya.
-						</p>
-					</section>
-
-					<!-- Contact Box -->
-					<section class="mt-12 p-6 sm:p-8 bg-gradient-to-br from-primary/10 to-emerald-500/10 rounded-2xl border border-primary/20 text-center">
-						<h3 class="text-xl font-bold text-foreground mb-3">📧 Hubungi Kami</h3>
-						<p class="text-muted-foreground mb-4">Jika Anda memiliki pertanyaan tentang Syarat & Ketentuan ini, silakan hubungi kami di:</p>
-						<a href="mailto:admin@langgananku.web.id" class="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground rounded-full font-semibold hover:bg-primary/90 transition-colors">
-							<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
-							admin@langgananku.web.id
-						</a>
-					</section>
-				</div>
-			</article>
-		</main>
-
-		<!-- Footer -->
-		<footer class="py-8 px-4 border-t border-border/30 bg-secondary/20">
-			<div class="max-w-3xl mx-auto text-center">
-				<p class="text-sm text-muted-foreground mb-2">© 2025 Langgananku. All rights reserved.</p>
-				<div class="flex items-center justify-center gap-4 text-sm">
-					<a href="/terms" class="text-primary font-medium">Syarat & Ketentuan</a>
-					<span class="text-border">•</span>
-					<a href="/privacy" class="text-muted-foreground hover:text-primary transition-colors">Kebijakan Privasi</a>
-				</div>
+			<div class="highlight">
+				<p><strong>Important:</strong> Langgananku is a subscription tracking application. We do NOT process payments or manage your subscriptions directly. All payments and subscription management are handled through each service provider.</p>
 			</div>
+
+			<h2>User Accounts</h2>
+			<ul>
+				<li>You are responsible for maintaining the security of your account credentials</li>
+				<li>You must provide accurate information when registering</li>
+				<li>One account is for one user only</li>
+				<li>You can delete your account at any time by contacting us</li>
+			</ul>
+
+			<h2>Prohibited Activities</h2>
+			<p>As a Langgananku user, you agree not to engage in the following activities:</p>
+			<ul>
+				<li>Testing vulnerabilities of Langgananku systems or networks</li>
+				<li>Accessing, damaging, or using non-public areas of Langgananku</li>
+				<li>Decompiling, disassembling, or reverse engineering our software</li>
+				<li>Disrupting other users' access including by sending viruses or spam</li>
+				<li>Using bots, scrapers, or unauthorized automated tools</li>
+				<li>Planting malware or distributing harmful content</li>
+				<li>Impersonating others or misrepresenting affiliation with any party</li>
+				<li>Violating others' privacy or applicable laws</li>
+			</ul>
+
+			<div class="warning">
+				<p><strong>Warning:</strong> Violation of these terms may result in termination of your account without prior notice.</p>
+			</div>
+
+			<h2>User Content</h2>
+			<p>All subscription data you enter into the application belongs to you. We only store and process this data to provide services to you. You are responsible for the accuracy of the data you enter.</p>
+
+			<h2>Limitation of Liability</h2>
+			<p>Langgananku acknowledges that:</p>
+			<ul>
+				<li>We are not responsible for inaccuracies or errors in data you enter</li>
+				<li>The service does not provide warranties or guarantees</li>
+				<li>We are not liable for direct or indirect damages arising from use of the service</li>
+				<li>The service and its content are provided "as is" and "as available"</li>
+			</ul>
+
+			<h2>Service Changes</h2>
+			<p>We reserve the right to modify or discontinue the service (or any part thereof) at any time, with or without notice. We will not be liable to you or any third party for any modification, suspension, or discontinuation of the service.</p>
+
+			<h2>Changes to Terms</h2>
+			<p>We may revise these Terms of Service from time to time. Material changes will be announced through the application or email. Your continued use of the service after such changes constitutes your acceptance of the revised terms.</p>
+
+			<h2>Governing Law</h2>
+			<p>These Terms are governed by and construed in accordance with the laws of the Republic of Indonesia, without regard to its conflict of law principles.</p>
+
+			<h2>Contact Us</h2>
+			<p>If you have questions about these Terms of Service, please contact us at: <a href="mailto:admin@langgananku.web.id">admin@langgananku.web.id</a></p>
+		</div>
+
+		<footer>
+			<p>© 2025 Langgananku. All rights reserved.</p>
+			<p><a href="/terms">Terms of Service</a> · <a href="/privacy">Privacy Policy</a></p>
 		</footer>
-
-		<style is:global>
-			:root {
-				--background: 0 0% 100%;
-				--foreground: 240 10% 3.9%;
-				--card: 0 0% 100%;
-				--card-foreground: 240 10% 3.9%;
-				--primary: 142 52% 45%;
-				--primary-foreground: 0 0% 100%;
-				--secondary: 240 4.8% 95.9%;
-				--secondary-foreground: 240 5.9% 10%;
-				--muted: 240 4.8% 95.9%;
-				--muted-foreground: 240 3.8% 46.1%;
-				--accent: 45 93% 62%;
-				--accent-foreground: 240 5.9% 10%;
-				--border: 240 5.9% 90%;
-			}
-
-			@media (prefers-color-scheme: dark) {
-				:root {
-					--background: 240 10% 3.9%;
-					--foreground: 0 0% 98%;
-					--card: 240 10% 6%;
-					--card-foreground: 0 0% 98%;
-					--primary: 142 52% 50%;
-					--primary-foreground: 240 5.9% 10%;
-					--secondary: 240 3.7% 15.9%;
-					--secondary-foreground: 0 0% 98%;
-					--muted: 240 3.7% 15.9%;
-					--muted-foreground: 240 5% 64.9%;
-					--border: 240 3.7% 15.9%;
-				}
-			}
-
-			* {
-				border-color: hsl(var(--border));
-			}
-
-			body {
-				background-color: hsl(var(--background));
-				color: hsl(var(--foreground));
-				font-family: 'Inter', system-ui, sans-serif;
-			}
-
-			.font-display {
-				font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
-			}
-
-			.bg-background { background-color: hsl(var(--background)); }
-			.bg-card { background-color: hsl(var(--card)); }
-			.bg-primary { background-color: hsl(var(--primary)); }
-			.bg-secondary { background-color: hsl(var(--secondary)); }
-			.text-foreground { color: hsl(var(--foreground)); }
-			.text-muted-foreground { color: hsl(var(--muted-foreground)); }
-			.text-primary { color: hsl(var(--primary)); }
-			.text-primary-foreground { color: hsl(var(--primary-foreground)); }
-			.border-border { border-color: hsl(var(--border)); }
-		</style>
 	</body>
 </html>
